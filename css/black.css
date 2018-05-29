@@ -617,7 +617,7 @@ fieldset[disabled] .form-control {
 }
 
 #trades {
-  overflow-x: hidden /* prevents the header from getting clipped at the top on FF on narrow windows. See https://github.com/forkdelta/forkdelta.github.io/issues/102 */
+  overflow-x: hidden /* prevents the header from getting clipped at the top on FF on narrow windows. See https://github.com/forkdelta/sunvniz.github.io/issues/102 */
 }
 
 .fa.fa-spinner:before {

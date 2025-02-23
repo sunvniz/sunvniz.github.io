@@ -41,7 +41,7 @@
 
 
         function getData() {
-            fetch("http://192.168.2.137:4040/status")
+            fetch("http://192.168.2.137:8080/status")
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
@@ -53,7 +53,7 @@
                             deviceList.innerHTML += renderOffline(device.deviceName);
                         }
                     });
-                });
+                })
         }
 
 
